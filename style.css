@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(104, 19, 224);
+  padding: 1% 18%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-content a {
+  font-weight: normal;
+  margin-right: 22px;
+  transition: 0.25s all ease-in-out;
+}
+
+.nav-content a:hover {
+  font-weight: bold;
+}
+
+main {
+  width: 44vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  background-color: rgba(104, 19, 224, 0.169);
+  margin-top: 22px;
+}
+
+.mainInput {
+  margin-top: 22px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.mainInput input {
+  width: 20vw;
+  border: none;
+  height: 32px;
+  border-radius: 8px;
+  padding: 6px;
+  font-size: large;
+}
+
+#addTodoBtn {
+  width: 100px;
+  height: 28px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(104, 19, 224, 0.54);
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#addTodoBtn:hover {
+  background-color: rgba(104, 19, 224, 0.775);
+}
+
+.mainHeading {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.noTodos {
+  margin-top: 42px;
+  font-size: large;
+  font-weight: bold;
+  width: 40vw;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #ffffff8c;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.todo {
+  margin-top: 12px;
+  width: 40vw;
+  height: 50%;
+  display: flex;
+  border-radius: 8px;
+  background-color: #ffffff8c;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+#checkbox {
+  cursor: pointer;
+}
+
+.leftTodo {
+  display: flex;
+  gap: 12px;
+}
+
+.rightTodo {
+  display: flex;
+  gap: 12px;
+}
+
+.rightTodo button {
+  height: 24px;
+  width: 60px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.editBtn {
+  background-color: rgba(104, 19, 224, 0.54);
+}
+
+.editBtn:hover {
+  background-color: rgba(104, 19, 224, 0.775);
+}
+
+.deleteBtn {
+  background-color: rgba(255, 0, 0, 0.377);
+}
+
+.deleteBtn:hover {
+  background-color: rgba(255, 0, 0, 0.663);
+}

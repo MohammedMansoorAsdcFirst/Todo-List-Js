@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDoList - Using Js</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <a href="#">iTask</a>
+            </div>
+            <div class="nav-content">
+                <a href="#">Home</a>
+                <a href="#">Your Tasks</a>
+            </div>
+        </nav>
+        <main>
+            <div class="mainInput">
+                <input class="input" placeholder="Enter Todos" type="text">
+                <button id="addTodoBtn">Add Todos</button>
+            </div>
+            <div>
+                <h3 class="mainHeading">Your Todos</h3>
+                <div class="todos">
+                    <div class="noTodos" style="display: none;">
+                        <p>No Todos To Display</p>
+                        <p>********************</p>
+                    </div>
+                    <!-- <div class="todo">
+                        <div class="leftTodo">
+                            <input id="checkbox" type="checkbox">
+                            <h3>Title</h3>
+                        </div>
+                        <div class="rightTodo">
+                            <button id="editBtn">Edit</button>
+                            <button id="deleteBtn">Delete</button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
